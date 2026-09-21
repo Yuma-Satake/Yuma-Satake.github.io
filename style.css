@@ -30,17 +30,18 @@ nav {
 }
 
 nav h1 {
-  font-size: 1.2em;
-  margin: 0 0 0.2em;
+  font-size: 1.7em;
+  line-height: 1.3;
+  margin: 0 0 0.3em;
 }
 
 nav h1 span {
-  font-size: 0.8em;
+  font-size: 0.6em;
   font-weight: normal;
 }
 
 .tagline {
-  font-size: 0.85em;
+  font-size: 0.8em;
   letter-spacing: 0.05em;
   color: #444444;
   margin-top: 0;
@@ -69,9 +70,13 @@ section {
 }
 
 h2 {
-  font-size: 1.25em;
+  font-size: 1.3em;
   border-bottom: 1px solid #000000;
   padding-bottom: 0.2em;
+}
+
+#about p {
+  font-size: 0.9em;
 }
 
 dl {
@@ -79,12 +84,13 @@ dl {
 }
 
 dt {
+  font-size: 1.1em;
   font-weight: 700;
   margin-top: 1.6em;
 }
 
 .role {
-  font-size: 0.85em;
+  font-size: 0.75em;
   color: #333333;
 }
 
@@ -95,7 +101,7 @@ dt:first-child {
 dd {
   margin: 0.15em 0 0 0;
   color: #555555;
-  font-size: 0.9em;
+  font-size: 0.85em;
   line-height: 1.6;
 }
 
@@ -104,20 +110,62 @@ a:visited {
   color: #0000ee;
 }
 
+#affiliation summary {
+  width: fit-content;
+  cursor: pointer;
+}
+
+#affiliation .detail {
+  margin-top: 0.6em;
+  padding-left: 1em;
+  border-left: 1px solid #000000;
+}
+
+#affiliation .detail h3 {
+  font-size: 1em;
+  color: #333333;
+  margin: 1em 0 0.2em;
+}
+
+#affiliation .detail h3:first-child {
+  margin-top: 0;
+}
+
+#affiliation .detail ul {
+  margin: 0;
+  padding-left: 1.2em;
+}
+
+#affiliation .detail p {
+  margin: 0;
+}
+
 #links dt a,
 #links dt a:visited,
 #contact dt a,
 #contact dt a:visited {
   color: inherit;
-  text-decoration: underline;
+  text-decoration: none;
+}
+
+#links dt,
+#contact dt {
+  font-size: 0.95em;
 }
 
 #links dt {
-  margin-top: 0.5em;
+  margin-top: 0.9em;
+}
+
+.icon {
+  width: 1.1em;
+  height: 1.1em;
+  margin-right: 0.45em;
+  vertical-align: -0.2em;
 }
 
 footer {
-  font-size: 0.85em;
+  font-size: 0.8em;
   color: #444444;
   margin-top: 3em;
 }
@@ -132,5 +180,12 @@ footer {
     border-bottom: none;
     padding-right: 0;
     padding-bottom: 0;
+  }
+  nav ul {
+    margin-bottom: 0;
+    font-size: 0.85em;
+  }
+  nav li:last-child {
+    margin-bottom: 0;
   }
 }
