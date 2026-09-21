@@ -146,12 +146,6 @@ a:visited {
   margin: 0;
 }
 
-#contact dt a,
-#contact dt a:visited {
-  color: inherit;
-  text-decoration: none;
-}
-
 #contact dt {
   font-size: 0.95em;
 }
