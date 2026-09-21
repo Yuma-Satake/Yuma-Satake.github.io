@@ -75,7 +75,8 @@ h2 {
   padding-bottom: 0.2em;
 }
 
-#about p {
+#about p,
+#affiliation > p {
   font-size: 0.9em;
 }
 
@@ -115,9 +116,14 @@ a:visited {
   cursor: pointer;
 }
 
+#affiliation details + details {
+  margin-top: 0.6em;
+}
+
 #affiliation .detail {
   margin-top: 0.6em;
   padding-left: 1em;
+  margin-bottom: 0.6em;
   border-left: 1px solid #000000;
 }
 
