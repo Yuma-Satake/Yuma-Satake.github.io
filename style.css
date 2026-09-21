@@ -140,21 +140,14 @@ a:visited {
   margin: 0;
 }
 
-#links dt a,
-#links dt a:visited,
 #contact dt a,
 #contact dt a:visited {
   color: inherit;
   text-decoration: none;
 }
 
-#links dt,
 #contact dt {
   font-size: 0.95em;
-}
-
-#links dt {
-  margin-top: 0.9em;
 }
 
 .icon {
