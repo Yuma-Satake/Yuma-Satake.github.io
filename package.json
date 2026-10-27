@@ -1,0 +1,12 @@
+{
+  "name": "yuma-satake-github-io",
+  "private": true,
+  "packageManager": "pnpm@12.6.0",
+  "type": "module",
+  "scripts": {
+    "og": "node scripts/generate-og.mjs"
+  },
+  "devDependencies": {
+    "puppeteer": "^25.16.0"
+  }
+}

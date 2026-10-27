@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-SLXEY51D61"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-SLXEY51D61');
+</script>
+<title>{{TITLE}} | Yuma Satake</title>
+<meta name="description" content="{{DESCRIPTION}}">
+<link rel="canonical" href="https://yuma-satake.com/blog/{{SLUG}}/">
+
+<meta property="og:type" content="article">
+<meta property="og:title" content="{{TITLE}}">
+<meta property="og:description" content="{{DESCRIPTION}}">
+<meta property="og:url" content="https://yuma-satake.com/blog/{{SLUG}}/">
+<meta property="og:image" content="https://yuma-satake.com/blog/{{SLUG}}/ogp.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="ja_JP">
+<meta property="article:published_time" content="{{DATE}}">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{TITLE}}">
+<meta name="twitter:description" content="{{DESCRIPTION}}">
+<meta name="twitter:image" content="https://yuma-satake.com/blog/{{SLUG}}/ogp.png">
+<meta name="twitter:site" content="@yuma_satake22">
+
+<link rel="icon" href="/profile.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/style.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "{{TITLE}}",
+  "description": "{{DESCRIPTION}}",
+  "datePublished": "{{DATE}}",
+  "url": "https://yuma-satake.com/blog/{{SLUG}}/",
+  "image": "https://yuma-satake.com/blog/{{SLUG}}/ogp.png",
+  "author": {
+    "@type": "Person",
+    "name": "Yuma Satake",
+    "alternateName": "佐竹友真",
+    "url": "https://yuma-satake.com/"
+  }
+}
+</script>
+</head>
+<body>
+
+<div class="layout">
+
+<nav>
+<a href="/"><img src="/profile.jpg" alt="Yuma Satake" class="avatar"></a>
+<h1>Yuma Satake<br><span lang="ja">佐竹友真</span></h1>
+<p class="tagline">Software Engineer</p>
+<ul>
+<li class="nav-disabled" aria-disabled="true"><img class="icon" src="/icons/blog.svg" alt="">ブログ</li>
+<li><a href="https://github.com/Yuma-Satake"><img class="icon" src="/icons/github.svg" alt="">GitHub</a></li>
+<li><a href="https://x.com/yuma_satake22"><img class="icon" src="/icons/x.svg" alt="">X (Twitter)</a></li>
+<li><a href="https://qiita.com/Yuma-Satake"><img class="icon" src="/icons/qiita.svg" alt="">Qiita</a></li>
+<li><a href="https://connpass.com/user/yumasatake/"><img class="icon" src="/icons/connpass.png" alt="">connpass</a></li>
+</ul>
+</nav>
+
+<main>
+
+<article class="post">
+<h2>{{TITLE}}</h2>
+<p class="post-date"><time datetime="{{DATE}}">{{DATE}}</time></p>
+
+{{BODY}}
+</article>
+
+<footer>
+<p>&copy; 2026 Yuma Satake</p>
+</footer>
+
+</main>
+
+</div>
+
+</body>
+</html>
